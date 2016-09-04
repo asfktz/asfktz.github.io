@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+@page {
+    /*size: 21cm 29.7cm;*/
+    /*margin: 30mm 45mm 30mm 45mm;  change the margins as you want them to be. */
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5em;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.cv {
+  margin: 0 auto;
+  padding: 40px;
+  width: 21cm;
+  height: 29.7cm;
+  border: 1px solid #DDD;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4em;
+}
+
+
+.header {
+  display: flex;
+}
+
+.header-left {
+  flex: 1;
+  max-width: 80%;
+}
+
+.header-right {}
+
+.my-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.contact-details-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  flex: 1;
+  min-width: 50%;
+  margin-bottom: 10px;
+}
+
+.skills-title {
+  margin-top: 0;
+}
+
+.projects {
+  border-left: 2px solid #DDD;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-top: 30px;
+}
+
+
+.projects-title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.project {
+  padding: 0 15px 0;
+  flex: 50%;
+}
+
+.project-title {
+  line-height: 1.75em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.project-link {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.project-link a {
+  color: #000;
+  text-decoration: none;
+}
+
+.project-year {
+  margin-top: 0;
+  color: #777;
+}
+
+.job-header {
+  /*display: flex;*/
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.job-timerange {
+  color: #777;
+}
+
+.project-link {
+  margin-bottom: 8px;
+}
+
+.languages-list {
+  display: flex;
+}
+
+.languages-title {
+  font-weight: bold;
+}
+
+.language {
+  flex: 1;
+}
+
+.language-title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.section {
+  /*border-bottom: 2px solid #ddd;*/
+  /*padding-bottom: 20px;*/
+  margin-bottom: 20px;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
